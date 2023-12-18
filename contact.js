@@ -1,10 +1,6 @@
 
 
-    contactForm.addEventListener('submit', function (event) {
-        if (!validateForm()) {
-            event.preventDefault();
-        }
-    });
+
 
     function validateForm() {
         var nameInput = document.getElementById('name');
@@ -35,5 +31,7 @@
 
         return true;
     }
+
+
 
 
