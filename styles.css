@@ -1,73 +1,65 @@
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-  }
-  
-  header {
-    background-color: #4CAF50;
-    color: #ffffff;
-    padding: 10px;
+}
+
+header {
     text-align: center;
-  }
-  
-  header a {
-    text-decoration: none;
-    color: #ffffff;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
     margin: 0 10px;
-  }
-  
-  header hr {
-    border: none;
-    border-top: 1px solid #ffffff;
-  }
-  
-  h2 {
-    color: #4CAF50;
-  }
-  
-  p {
-    color: #333333;
-  }
-  
-  fieldset {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  legend {
-    font-weight: bold;
-    color: #4C6F50;
-  }
-  
-  table {
-    width: 100%;
-    margin-top: 20px;
-  }
-  
-  table img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  footer {
-    background-color: #4CAF50;
-    color: #ffffff;
+    text-decoration: none;
+}
+
+#ContactUs {
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
+    margin: 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+fieldset {
+    border: 2px solid #333;
+    padding: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
     width: 100%;
-  }
-  
-  footer hr {
-    border: none;
-    border-top: 1px solid #ffffff;
-  }
-  
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-images {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
